@@ -2,7 +2,7 @@
   <div>
 <!--    <PageHeader></PageHeader>-->
     <hello-world></hello-world>
-    <main class="max-w-7xl px-2 sm:px-4 lg:px-8 mx-auto">
+    <main>
       <slot></slot>
     </main>
   </div>

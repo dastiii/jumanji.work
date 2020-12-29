@@ -1,17 +1,13 @@
 <template>
   <div id="app" class="font-sans font-normal">
-    <DefaultLayout>
-      <keep-alive>
-        <router-view />
-      </keep-alive>
-    </DefaultLayout>
+    <keep-alive>
+      <router-view />
+    </keep-alive>
   </div>
 </template>
 
-<style lang="scss"></style>
 <script>
-import DefaultLayout from "@/views/layouts/DefaultLayout";
-export default {
-  components: { DefaultLayout }
-};
+export default {};
 </script>
+
+<style lang="scss"></style>
